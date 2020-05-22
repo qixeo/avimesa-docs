@@ -16,5 +16,4 @@ fields:
   label: slug
 pages:
 - docs/User Guides/avimesa-gadget.md
-- docs/User Guides/testing.md
 - docs/editing-in-forestry.md
