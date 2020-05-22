@@ -13,6 +13,10 @@
       "section": "Setup",
       "topics": [
         {
+          "title": "Avimesa Gadget",
+          "slug": "avimesa-gadget"
+        },
+        {
           "title": "Testing",
           "slug": "testing"
         },
