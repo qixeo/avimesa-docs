@@ -16,7 +16,7 @@ Avimesa Gadget is a lightweight software tool that provides Linux-based devices,
 
 Avimesa Gadget operates as a virtual Avimesa device and provides data ingestion and cloud communication functionalities. Gadget input data is formatted using JSON (JavaScript Object Notation) and adheres to the Avimesa Dialtone protocol. Accepted input data is stored for the duration of Gadget execution or until overwritten and transmitted when commanded to do so. Gadget offers various modes of operation: an interactive command-line interface (CLI), control via STDIN, and single message transmission. For a more in-depth description, please see Gadget's man page by typing `man avmsagadget` in the terminal, or see 'Full Usage' below.
 
-## Simple Usage:
+## Simple Usage
 
 1.  (via CLI) Run `avmsagadget -i <device-id> <auth-code>` If you don't have a "device-id" and its associated "auth-code" or you don't know what these are, read about them here.
 2.  Now you're using "interactive" Gadget! Let's try the `info` command: this displays all of Gadget's internal settings.
@@ -25,17 +25,17 @@ Avimesa Gadget operates as a virtual Avimesa device and provides data ingestion 
 5.  Let's check for data again: `info CHANNELS`
 6.  Finally, run the command `run` This will attempt to send data through the Avimesa system and, with your Avimesa.Live account, you should be able to see it on the frontend!
 
-## Full Usage:
+## Full Usage
 
-#### Name
+### Name
 
 avmsagadget - data transmission interface into the Avimesa Industrial IoT Solution
 
-#### Synopsis
+### Synopsis
 
 avmsagadget [options] auth-key
 
-#### Description
+### Description
 
 avmsagadget, or simply Gadget, operates as a virtual Avimesa device and provides data ingestion and cloud communication functionalities. Gadget input data is formatted using JSON (JavaScript Object Notation) and adheres to the Avimesa Dialtone protocol. For more information on the Avimesa Dialtone protocol, please visit www.avimesa.com.
 
@@ -75,7 +75,7 @@ Data in the world of Avimesa (Dialtone introduction continuation) is stored in c
  ```
     
 
-#### Options
+### Options
 
 **-i device-id** A 32-byte hexadecimal Device ID Gadget should execute with.
 
@@ -83,7 +83,7 @@ Data in the world of Avimesa (Dialtone introduction continuation) is stored in c
 
 **-p path-to-file** Execute Gadget with its STDIN, STDOUT, and STDERR existing as named pipes in the filesystem at path-to-file.
 
-#### Settings
+### Settings
 
 **DEVICEID** Gadget's 32 byte Device ID (defaults to 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF if not read from configuration file).
 
@@ -111,7 +111,7 @@ Terminates Gadget.
 
 **help** Prints helpful information.
 
-#### Files
+### Files
 
 /etc/avimesa.conf.d/avmsagadget.conf (configuration file) Can be used to (mostly) initialize Gadget. This file should contain three lines: (1) Device ID, (2) hostname, and (3) port number.
 
