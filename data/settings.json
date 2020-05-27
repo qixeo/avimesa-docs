@@ -13,6 +13,10 @@
       "section": "User Guides",
       "topics": [
         {
+          "title": "Avimesa-Live",
+          "slug": "avimesa-live"
+        },
+        {
           "title": "Avimesa Gadget",
           "slug": "avimesa-gadget"
         }
