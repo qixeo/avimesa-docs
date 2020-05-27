@@ -6,7 +6,7 @@ slug: avimesa-gadget
 ---
 Avimesa Gadget is a lightweight software tool that provides Linux-based devices, like a Raspberry Pi, with data transmission capabilities into the Avimesa Industrial IoT Solution. Using your favorite programming language to drive Gadget, you can transfer digital sensor readings into the cloud where they are then made available to the web endpoint of your choice.
 
-## Installation:
+## Installation
 
 1.  [Create an Avimesa.Live Account][1] if you haven't already.
 2.  [Download Avimesa Gadget][2] onto a Raspberry Pi and unzip the .deb file.
