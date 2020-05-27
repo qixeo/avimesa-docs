@@ -55,22 +55,24 @@ For users new to the Avimesa Industrial IoT solution, a brief introduction to th
 
 Data in the world of Avimesa (Dialtone introduction continuation) is stored in channels. An Avimesa-enabled device can have up to 64 channels and each channel can containup to sixteen 32 bit data elements. Each data element can have one of the following types: boolean, integer, floating-point, or string. Following is an example of a JSON-formatted channel Dialtone with floating-point data:
 
-               {
-                   "chans": [
-                   {
-                       "ch_idx": 0,
-                       "ch_data": [
-                       {
-                           "data_idx": 0,
-                           "units", 1,
-                           "val", 7.2
-                       },
-                       ...
-                       ]
-                   },
-                   ...
-                   ]
-               }
+```
+ {
+     "chans": [
+     {
+         "ch_idx": 0,
+         "ch_data": [
+         {
+             "data_idx": 0,
+             "units", 1,
+             "val", 7.2
+         },
+         ...
+         ]
+     },
+     ...
+     ]
+ }
+ ```
     
 
 #### OPTIONS
