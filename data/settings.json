@@ -13,10 +13,6 @@
       "section": "User Guides",
       "topics": [
         {
-          "title": "Avimesa Group API",
-          "slug": "avimesa-group-api-amqp"
-        },
-        {
           "title": "Avimesa-Live",
           "slug": "avimesa-live"
         },
@@ -25,16 +21,20 @@
           "slug": "avimesa-gadget"
         },
         {
+          "title": "Avimesa Gateway",
+          "slug": "avimesa-gateway-pi"
+        },
+        {
           "title": "Avimesa 1000",
           "slug": "avimesa-1000"
         },
         {
-          "title": "Avimesa.js",
-          "slug": "avimesa-js"
+          "title": "Avimesa Group API",
+          "slug": "avimesa-group-api-amqp"
         },
         {
-          "title": "Avimesa Gateway",
-          "slug": "avimesa-gateway-pi"
+          "title": "Avimesa.js",
+          "slug": "avimesa-js"
         }
       ]
     }
