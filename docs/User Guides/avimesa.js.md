@@ -84,7 +84,7 @@ On the *Avimesa 1000 Simulator* web page (port 8080), Enter `Device ID` and `Aut
 
 Click on a sensor that you added to view a chart of the sensor data you sent. You should now see a chart with data that looks something like this:
 
-<img src="/wp-content/uploads/2019/08/IoT-data-chart-temperature-1024x624.png" alt="IoT temperature data chart" width="1024" height="624" class="aligncenter size-large wp-image-3626 shadow-small rounded-corners" />
+<img src="https://avimesa.com/wp-content/uploads/2019/08/IoT-data-chart-temperature-1024x624.png" alt="IoT temperature data chart" width="1024" height="624" class="aligncenter size-large wp-image-3626 shadow-small rounded-corners" />
 
 Note: You may install the apps individually without the Avimesa.js installer script. For instructions see the following:
 
