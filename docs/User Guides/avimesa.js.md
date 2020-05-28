@@ -4,7 +4,6 @@ date: 2020-05-28
 slug: avimesa-js
 
 ---
-<iframe width="700" height="394" src="https://www.youtube.com/embed/ZXPdDLgQFM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 This guide will walk you through the process of installing Avimesa.js using a shell script, which automatically installs Avimesa.js and its dependencies. A common development scenario would be to run Avimesa Gadget on a Raspberry Pi and the web application (Avimesa Sails) on localhost with Mac or Windows until it's ready to deploy. For a detailed primer on the Avimesa Sails application [please see this document][1].
 
 #### Avimesa.js consists of several products:
