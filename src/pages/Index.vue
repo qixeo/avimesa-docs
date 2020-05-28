@@ -10,8 +10,8 @@
           icon="play-icon"
         />
         <Shortcut
-          link="/theme-configuration"
-          text="Configuration"
+          link="/getting-started"
+          text="Getting Started"
           icon="sliders-icon"
         />
         <Shortcut
