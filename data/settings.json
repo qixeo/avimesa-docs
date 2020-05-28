@@ -13,6 +13,10 @@
       "section": "User Guides",
       "topics": [
         {
+          "title": "Avimesa Group API",
+          "slug": "avimesa-group-api-amqp"
+        },
+        {
           "title": "Avimesa-Live",
           "slug": "avimesa-live"
         },
