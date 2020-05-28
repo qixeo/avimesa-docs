@@ -92,7 +92,7 @@ Note: You may install the apps individually without the Avimesa.js installer scr
 
 [Installing Avimesa Gadget][4]
 
- [1]: /docs/user-guides/avimesa-sails/
- [2]: /downloads/
- [3]: /create-account/
- [4]: /docs/user-guides/avimesa-gadget-virtual-device-client/
+ [1]: https://avimesa.com/docs/user-guides/avimesa-sails/
+ [2]: https://avimesa.com/downloads/
+ [3]: https://avimesa.com/create-account/
+ [4]: /avimesa-gadget/
