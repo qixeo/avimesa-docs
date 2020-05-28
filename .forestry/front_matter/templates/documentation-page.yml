@@ -19,4 +19,5 @@ pages:
 - docs/User Guides/avimesa-gadget.md
 - docs/User Guides/avimesa-gateway.md
 - docs/User Guides/avimesa-group-api-amqp.md
+- docs/User Guides/avimesa.js.md
 - docs/User Guides/avimesa.live.md
