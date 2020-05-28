@@ -16,7 +16,7 @@
               <g-link class="topic" :to="'/' + item.slug">{{
                 item.title
               }}</g-link>
-              <ul
+              <!--<ul
                 v-if="checkAnchors(node.slug, item.slug)"
                 v-for="{ node } in $static.docs.edges"
                 :key="node.id"
@@ -28,7 +28,7 @@
                     >{{ heading.value }}</a
                   >
                 </li>
-              </ul>
+              </ul>-->
             </li>
           </ul>
         </li>
