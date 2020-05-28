@@ -13,6 +13,10 @@
       "section": "User Guides",
       "topics": [
         {
+          "title": "Avimesa.js",
+          "slug": "avimesa-js"
+        },
+        {
           "title": "Avimesa Gateway",
           "slug": "avimesa-gateway-pi"
         },
