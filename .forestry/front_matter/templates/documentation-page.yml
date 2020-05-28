@@ -15,5 +15,6 @@ fields:
   name: slug
   label: slug
 pages:
+- docs/User Guides/avimesa-1000.md
 - docs/User Guides/avimesa-gadget.md
 - docs/User Guides/avimesa.live.md
