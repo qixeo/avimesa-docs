@@ -13,6 +13,10 @@
       "section": "User Guides",
       "topics": [
         {
+          "title": "Avimesa 1000",
+          "slug": "avimesa-1000"
+        },
+        {
           "title": "Avimesa-Live",
           "slug": "avimesa-live"
         },
