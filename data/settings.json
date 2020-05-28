@@ -10,23 +10,15 @@
       ]
     },
     {
-      "section": "Setup",
+      "section": "User Guides",
       "topics": [
+        {
+          "title": "Avimesa-Live",
+          "slug": "avimesa-live"
+        },
         {
           "title": "Avimesa Gadget",
           "slug": "avimesa-gadget"
-        },
-        {
-          "title": "Testing",
-          "slug": "testing"
-        },
-        {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
-        },
-        {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
         }
       ]
     }
