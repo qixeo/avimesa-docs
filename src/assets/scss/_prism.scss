@@ -1,7 +1,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
   background: none;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 1em;
   text-align: left;
   white-space: pre;
@@ -9,51 +9,51 @@ pre[class*="language-"] {
   word-break: normal;
   word-wrap: normal;
   line-height: 1.5;
-  font-size: .9em;
+  font-size: 0.9em;
   tab-size: 4;
   hyphens: none;
-  transition: background .15s ease-in-out, color .15s ease-in-out;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
 
   * {
-    transition: color .15s ease-in-out;
+    transition: color 0.15s ease-in-out;
   }
 }
 
 pre[class*="language-"] {
-	padding: 30px;
-	margin: 2em 0;
-	overflow: auto;
-	border-radius: 5px;
+  padding: 30px;
+  margin: 2em 0;
+  overflow: auto;
+  border-radius: 5px;
 }
 
 :not(pre) > code[class*="language-"] {
-	padding: .25em;
-	border-radius: .3em;
-	white-space: normal;
+  padding: 0.25em;
+  border-radius: 0.3em;
+  white-space: normal;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: slategray;
+  color: slategray;
 }
 
 .namespace {
-	opacity: .7;
+  opacity: 0.7;
 }
 
 .token.important,
 .token.bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .token.italic {
-	font-style: italic;
+  font-style: italic;
 }
 
 .token.entity {
-	cursor: help;
+  cursor: help;
 }
 
 .bright {
@@ -64,7 +64,7 @@ pre[class*="language-"] {
 
   :not(pre) > code[class*="language-"],
   pre[class*="language-"] {
-    background: $sidebarBright;
+    background: #e9eaeb;
   }
 
   .token.punctuation {
@@ -106,7 +106,7 @@ pre[class*="language-"] {
 
   .token.function,
   .token.class-name {
-    color: #DD4A68;
+    color: #dd4a68;
   }
 
   .token.regex,
@@ -124,7 +124,7 @@ pre[class*="language-"] {
 
   :not(pre) > code[class*="language-"],
   pre[class*="language-"] {
-    background: $sidebarDark;
+    background: rgb(46, 46, 46);
   }
 
   .token.punctuation {

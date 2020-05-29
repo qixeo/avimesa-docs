@@ -38,9 +38,9 @@ Run `./changeCredentials.sh`
 Type `cd avimesa-sailsjs` then `enter`
 
 Run the following command to launch the Avimesa Sails application:
-
+```
     sails lift
-    
+```
 
 Now, open a second Terminal window
 
@@ -49,9 +49,9 @@ Change directory back to `Avimesa.js-1.0` by typing `cd ../`
 Run this command `cd Avimesa\ 1000\ Simulator`
 
 Then run the following command to launch the Avimesa 1000 Simulator"
-
+```
     node index.js
-    
+```  
 
 Open two browser windows and navigate to one of the following:
 

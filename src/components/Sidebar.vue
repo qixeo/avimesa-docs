@@ -16,7 +16,7 @@
               <g-link class="topic" :to="'/' + item.slug">{{
                 item.title
               }}</g-link>
-              <!--<ul
+              <ul
                 v-if="checkAnchors(node.slug, item.slug)"
                 v-for="{ node } in $static.docs.edges"
                 :key="node.id"
@@ -28,7 +28,7 @@
                     >{{ heading.value }}</a
                   >
                 </li>
-              </ul>-->
+              </ul>
             </li>
           </ul>
         </li>
@@ -128,16 +128,16 @@ export default {
 .sidebar {
   transition: background 0.15s ease-in-out, transform 0.15s ease-in-out,
     border-color 0.15s linear;
-  padding: 100px 30px 30px;
+  padding: 25px 30px 30px;
   width: 300px;
   position: fixed;
-  top: 0;
+  top: 110px;
   bottom: 0;
   left: 0;
   z-index: 9;
   will-change: transform;
   transform: translateX(-300px);
-  border-right: 1px solid transparent;
+  // border-right: 1px solid transparent;
   overflow: auto;
 
   @include respond-above(sm) {
@@ -198,31 +198,43 @@ ul {
 
 .topic {
   font-weight: 700;
+  &:hover {
+    opacity: 0.8;
+    transition: opacity 0.15s ease-in-out;
+  }
 }
 
 .sub-topic {
   font-size: 0.875rem;
   position: relative;
   opacity: 0.8;
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
 
-  &::after {
-    content: "";
-    transition: opacity 0.15s ease-in-out;
-    width: 6px;
-    height: 6px;
-    background: $brandPrimary;
-    border-radius: 100%;
-    display: block;
-    opacity: 0;
-    position: absolute;
-    top: 13px;
-    left: -15px;
-  }
+  // &::after {
+  //   content: "";
+  //   transition: opacity 0.15s ease-in-out;
+  //   width: 6px;
+  //   height: 6px;
+  //   background: $brandPrimary;
+  //   border-radius: 100%;
+  //   display: block;
+  //   opacity: 0;
+  //   position: absolute;
+  //   top: 13px;
+  //   left: -15px;
+  // }
 
   &.current {
-    &::after {
-      opacity: 1;
-    }
+    // &::after {
+    //   opacity: 1;
+    // }
+    color: $brandPrimary;
+  }
+
+  &:hover {
+    opacity: 0.5;
+    transition: opacity 0.15s ease-in-out;
   }
 }
 
@@ -230,5 +242,13 @@ ul {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.topic + ul .sub-topic {
+  display: none;
+}
+
+.topic.active + ul .sub-topic {
+  display: block;
 }
 </style>
