@@ -2,8 +2,8 @@
 title: Avimesa Gadget
 date: 2020-05-21
 slug: avimesa-gadget
-
 ---
+
 Avimesa Gadget is a lightweight software tool that provides Linux-based devices, like a Raspberry Pi, with data transmission capabilities into the Avimesa Industrial IoT Solution. Using your favorite programming language to drive Gadget, you can transfer digital sensor readings into the cloud where they are then made available to the web endpoint of your choice.
 
 ## Installation
@@ -55,7 +55,7 @@ For users new to the Avimesa Industrial IoT solution, a brief introduction to th
 
 Data in the world of Avimesa (Dialtone introduction continuation) is stored in channels. An Avimesa-enabled device can have up to 64 channels and each channel can containup to sixteen 32 bit data elements. Each data element can have one of the following types: boolean, integer, floating-point, or string. Following is an example of a JSON-formatted channel Dialtone with floating-point data:
 
-```
+```javascript
  {
      "chans": [
      {
@@ -72,8 +72,7 @@ Data in the world of Avimesa (Dialtone introduction continuation) is stored in c
      ...
      ]
  }
- ```
-    
+```
 
 ### Options
 
@@ -117,5 +116,5 @@ Terminates Gadget.
 
 Avimesa Gadget is available as a [free download][2].
 
- [1]: /sign-up_tutorial/
- [2]: /downloads/
+[1]: /sign-up_tutorial/
+[2]: /downloads/

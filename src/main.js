@@ -4,7 +4,6 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/scss/globals.scss";
 import Vuex from "vuex";
-import "prismjs/themes/prism.css";
 require("typeface-source-sans-pro");
 
 export default function(Vue, { router, head, isClient, appOptions }) {
